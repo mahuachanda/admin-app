@@ -1,0 +1,51 @@
+.form-container{
+    background-color: rgb(210, 227, 239);
+}
+.form-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    z-index: -1;
+    margin: 5%;
+    top: 10%;
+    left:10%;
+  }
+  
+  .form-section h2 {
+    margin-bottom: 20px;
+  }
+  .criteria-container{
+    margin: 20px;
+    background-color: rgb(210, 227, 239);
+    margin: 20px;
+    display: grid;
+   grid-template-columns: repeat(3, 2fr);
+}
+  
+  .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .icon-btn:hover{
+    background-color: rgb(43, 26, 225); 
+   color: white;
+   
+  }
+  .icon-btn{
+    cursor: pointer;
+   text-align: center;
+   margin:5px;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   width:30%;
+   height: 40%;
+  }
